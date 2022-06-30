@@ -103,6 +103,35 @@ Yuzhong Hong, Xianguo Yu, Neng He, Nan Liu, Junhui Liu. [[pdf](https://aclanthol
 Dingmin Wang, Yi Tay, Li Zhong. [[pdf](https://aclanthology.org/P19-1578.pdf)], [[code](https://github.com/sunnyqiny/Confusionset-guided-Pointer-Networks-for-Chinese-Spelling-Check)].
 
 ### 语法纠错相关论文
+> ### 2022
+**Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction**. ACL2022
+Xin Sun, Houfeng Wang[[pdf](https://aclanthology.org/2022.acl-short.77.pdf)].[[code](https://github.com/AutoTemp/Align-and-Predict)].
+
+**Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction**. ACL2022
+M Tarnavskyi, A Chernodub, K Omelianchuk[[pdf](https://arxiv.org/pdf/2203.13064.pdf)].[[code](https://github.com/MaksTarnavskyi/gector-large)].
+
+**Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors**. ACL2022
+Ryo Nagata1,2, Manabu Kimura3, and Kazuaki Hanawa[[pdf](https://arxiv.org/pdf/2108.12216.pdf)]
+
+**Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation**. ACL2022
+R Nagata, M Kimura, K Hanawa[[pdf]([R Nagata, M Kimura, K Hanawa](https://aclanthology.org/2022.findings-acl.233.pdf))[code](https://github.com/tc-yue/DA_CGED
+)]
+
+**Type-Driven Multi-Turn Corrections for Grammatical Error Correction**. ACL2022
+S Lai, Q Zhou, J Zeng, Z Li, C Li, Y Cao, J Su[[pdf](https://arxiv.org/pdf/2203.09136.pdf)[code](https://github.com/HillZhang1999/MuCGEC)]
+
+**Is Whole Word Masking Always Better for Chinese BERT?: Probing on Chinese Grammatical Error Correction**. ACL2022
+Y Dai, L Li, C Zhou, Z Feng, E Zhao, X Qiu, P Li, D Tang[[pdf](https://arxiv.org/pdf/2203.00286.pdf)]
+
+**MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction**. NAACL2022
+Y Zhang, Z Li, Z Bao, J Li, B Zhang, C Li, F Huang[[pdf](https://arxiv.org/pdf/2204.10994.pdf)[code](https://github.com/HillZhang1999/MuCGEC)]
+
+**Frustratingly Easy System Combination for Grammatical Error Correction**. NAACL2022
+K Imamura, K Saito, K Sadamitsu, H Nishikawa[[pdf](https://aclanthology.org/P12-2076.pdf)]
+
+**ErAConD: Error Annotated Conversational Dialog Dataset for Grammatical Error Correction**. NAACL2022
+X Yuan, D Pham, S Davidson, Z Yu [[pdf](https://arxiv.org/pdf/2112.08466.pdf)]
+
 > ### 2021
 
 **Instantaneous Grammatical Error Correction with Shallow Aggressive Decoding**. ACL 2021.  
@@ -137,6 +166,12 @@ Michihiro Yasunaga, Jure Leskovec and Percy Liang.[[pdf](https://arxiv.org/abs/2
 
 **Multi-Class Grammatical Error Detection for Correction: A Tale of Two Systems**. EMNLP 2021.  
 Zheng Yuan, Shiva Taslimipoor, Christopher Davis and Christopher Bryant.
+
+**Is this the end of the gold standard? A straightforward reference-less grammatical error correction metric**EMNLP 2021.  
+
+**Beyond Grammatical Error Correction: Improving L1-influenced research writing in English using pre-trained encoder-decoder models**EMNLP 2021.  
+
+**Grammatical Error Correction with Contrastive Learning in Low Error Density Domains**EMNLP 2021.  
 
 > ### 2020
 
@@ -484,19 +519,7 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 | [HybridSet](https://github.com/wdimmy/Automatic-Corpus-Generation) | CSC | 270K | - | Zh |
 | NLPCC 2018 GEC | GEC | - | NLPCC | Zh |
 | CGED | GED | - | HSK | Zh |
-| CoNLL 2013 | GEC | 1,381 | CONLL | En |
-| CoNLL 2014 | GEC | 1,312 | CONLL | En |
-| JFLEG | GEC | 747 | [JFLEG: A Fluency Corpus and Benchmark for Grammatical Error Correction](https://aclanthology.org/E17-2037.pdf) | En |
-| NUCLE | GEC | 57k | [Building a Large Annotated Corpus of Learner English: The NUS Corpus of Learner English](https://aclanthology.org/W13-1703.pdf) | En |
-| Lang-8 | GEC | 1M+ | Lang-8 | En |
-| Write&Improve+LOCNESS  | GEC | 63,683 & 7,632 | - | En |
-|MMC+PsyTAR (medica)||512 & 79| - |En|
-|brikbeck+holbrook-tagged+holbrook-missp+aspell+wikipedia|(Misspelling word)| 36133/6136 & 1791/1200& 531/450& 2455/1922|[BBK](https://www.dcs.bbk.ac.uk/~ROGER/corpora.htm)|En|
-|[TOEFL-Spell](https://github.com/EducationalTestingService/toefl-spell)|-|-|[A Benchmark Corpus of English Misspellings and a Minimally-supervised Model for Spelling Correction](https://www.aclweb.org/anthology/W19-4407.pdf)|En|
-|[NUC-GEC](https://www.comp.nus.edu.sg/~nlp/corpora.html)|GEC|500 essays|[How Far are We from Fully Automatic High Quality Grammatical Error Correction?](https://www.aclweb.org/anthology/P15-1068.pdf)|En|
-| [BEA2019](https://www.cl.cam.ac.uk/research/nl/bea2019st/) | GEC | 34,308 | BEA | En |
-| PIE-synthetic | GEC | 9,000,000 | [Parallel iterative edit models for local sequence transduction](https://aclanthology.org/D19-1435/) | En |
-| [clang8](https://github.com/google-research-datasets/clang8) | GEC | 2,372,119 & 114,405 & 44,830 | - | En,GE,RU |
+| Lang-8 | GEC | 1M+ | Lang-8 | Zh |
 | CTC2021 | CSC | 217,634 | - | Zh |
 
 ## 系统 & API
@@ -511,6 +534,6 @@ Ryo Nagata, Kazuhide Nakatani.[[pdf](https://aclanthology.org/C10-2103/)].
 
 ### 评测比赛
 * [CTC 2021](https://github.com/destwang/CTC2021)
-
+* [CCL 2022](https://github.com/blcuicall/CCL2022-CLTC)
 -----
 *以上资源只用于学术研究，如果有侵犯版权，请联系我们进行删除。*
