@@ -104,32 +104,31 @@ Dingmin Wang, Yi Tay, Li Zhong. [[pdf](https://aclanthology.org/P19-1578.pdf)], 
 
 ### 语法纠错相关论文
 > ### 2022
-**Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction**. ACL2022
+**Adjusting the Precision-Recall Trade-Off with Align-and-Predict Decoding for Grammatical Error Correction**. ACL2022  
 Xin Sun, Houfeng Wang[[pdf](https://aclanthology.org/2022.acl-short.77.pdf)].[[code](https://github.com/AutoTemp/Align-and-Predict)].
 
-**Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction**. ACL2022
+**Ensembling and Knowledge Distilling of Large Sequence Taggers for Grammatical Error Correction**. ACL2022  
 M Tarnavskyi, A Chernodub, K Omelianchuk[[pdf](https://arxiv.org/pdf/2203.13064.pdf)].[[code](https://github.com/MaksTarnavskyi/gector-large)].
 
-**Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors**. ACL2022
+**Exploring the Capacity of a Large-scale Masked Language Model to Recognize Grammatical Errors**. ACL2022  
 Ryo Nagata1,2, Manabu Kimura3, and Kazuaki Hanawa[[pdf](https://arxiv.org/pdf/2108.12216.pdf)]
 
-**Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation**. ACL2022
-R Nagata, M Kimura, K Hanawa[[pdf]([R Nagata, M Kimura, K Hanawa](https://aclanthology.org/2022.findings-acl.233.pdf))[code](https://github.com/tc-yue/DA_CGED
-)]
+**Improving Chinese Grammatical Error Detection via Data augmentation by Conditional Error Generation**. ACL2022  
+R Nagata, M Kimura, K Hanawa[[pdf](https://aclanthology.org/2022.findings-acl.233.pdf)].[[code](https://github.com/tc-yue/DA_CGED)]
 
-**Type-Driven Multi-Turn Corrections for Grammatical Error Correction**. ACL2022
-S Lai, Q Zhou, J Zeng, Z Li, C Li, Y Cao, J Su[[pdf](https://arxiv.org/pdf/2203.09136.pdf)[code](https://github.com/HillZhang1999/MuCGEC)]
+**Type-Driven Multi-Turn Corrections for Grammatical Error Correction**. ACL2022  
+S Lai, Q Zhou, J Zeng, Z Li, C Li, Y Cao, J Su[[pdf](https://arxiv.org/pdf/2203.09136.pdf)].[[code](https://github.com/HillZhang1999/MuCGEC)]
 
-**Is Whole Word Masking Always Better for Chinese BERT?: Probing on Chinese Grammatical Error Correction**. ACL2022
+**Is Whole Word Masking Always Better for Chinese BERT?: Probing on Chinese Grammatical Error Correction**. ACL2022  
 Y Dai, L Li, C Zhou, Z Feng, E Zhao, X Qiu, P Li, D Tang[[pdf](https://arxiv.org/pdf/2203.00286.pdf)]
 
-**MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction**. NAACL2022
-Y Zhang, Z Li, Z Bao, J Li, B Zhang, C Li, F Huang[[pdf](https://arxiv.org/pdf/2204.10994.pdf)[code](https://github.com/HillZhang1999/MuCGEC)]
+**MuCGEC: a Multi-Reference Multi-Source Evaluation Dataset for Chinese Grammatical Error Correction**. NAACL2022  
+Y Zhang, Z Li, Z Bao, J Li, B Zhang, C Li, F Huang[[pdf](https://arxiv.org/pdf/2204.10994.pdf)].[[code](https://github.com/HillZhang1999/MuCGEC)]
 
-**Frustratingly Easy System Combination for Grammatical Error Correction**. NAACL2022
+**Frustratingly Easy System Combination for Grammatical Error Correction**. NAACL2022  
 K Imamura, K Saito, K Sadamitsu, H Nishikawa[[pdf](https://aclanthology.org/P12-2076.pdf)]
 
-**ErAConD: Error Annotated Conversational Dialog Dataset for Grammatical Error Correction**. NAACL2022
+**ErAConD: Error Annotated Conversational Dialog Dataset for Grammatical Error Correction**. NAACL2022  
 X Yuan, D Pham, S Davidson, Z Yu [[pdf](https://arxiv.org/pdf/2112.08466.pdf)]
 
 > ### 2021
